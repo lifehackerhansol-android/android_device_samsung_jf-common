@@ -30,6 +30,9 @@ include vendor/samsung/jf-common/BoardConfigVendor.mk
 
 COMMON_PATH := device/samsung/jf-common
 
+# Build broken flags
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8960
 
