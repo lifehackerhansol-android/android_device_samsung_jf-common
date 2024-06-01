@@ -42,7 +42,8 @@ LOCAL_CFLAGS += \
 LOCAL_HEADER_LIBRARIES := \
     libgps.utils_headers \
     libloc_core_headers \
-    liblocation_api_headers
+    liblocation_api_headers \
+    libhardware_headers
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -78,7 +79,8 @@ LOCAL_CFLAGS += \
 LOCAL_HEADER_LIBRARIES := \
     libgps.utils_headers \
     libloc_core_headers \
-    liblocation_api_headers
+    liblocation_api_headers \
+    libhardware_headers
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 

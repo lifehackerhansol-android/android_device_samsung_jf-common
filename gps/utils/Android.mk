@@ -28,7 +28,8 @@ LOCAL_CFLAGS += \
 LOCAL_LDFLAGS += -Wl,--export-dynamic
 
 LOCAL_HEADER_LIBRARIES := \
-    libgps.utils_headers
+    libgps.utils_headers \
+    libhardware_headers
 
 LOCAL_MODULE := libgps.utils
 LOCAL_MODULE_OWNER := qcom

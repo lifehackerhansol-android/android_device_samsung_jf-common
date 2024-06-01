@@ -31,7 +31,8 @@ LOCAL_CFLAGS += \
      -Wno-unused-parameter
 
 LOCAL_HEADER_LIBRARIES := \
-    libgps.utils_headers
+    libgps.utils_headers \
+    libhardware_headers
 
 include $(BUILD_SHARED_LIBRARY)
 
