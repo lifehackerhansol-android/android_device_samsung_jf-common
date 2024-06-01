@@ -62,6 +62,7 @@ BOARD_RAMDISK_USE_XZ := true
 TARGET_KERNEL_CONFIG := lineageos_jf_defconfig
 TARGET_KERNEL_RECOVERY_CONFIG := lineageos_jf_recovery_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/jf
+TARGET_KERNEL_CLANG_COMPILE := false
 
 # Audio
 AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := true
