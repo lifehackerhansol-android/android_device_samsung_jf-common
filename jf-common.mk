@@ -18,7 +18,7 @@
 $(LOCAL_PATH) := device/samsung/jf-common
 
 # Shipping API level
-$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
+PRODUCT_SHIPPING_API_LEVEL := 18
 
 # Get non-open-source specific aspects if available
 $(call inherit-product, vendor/samsung/jf-common/jf-common-vendor.mk)
