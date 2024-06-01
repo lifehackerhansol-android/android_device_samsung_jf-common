@@ -292,7 +292,7 @@ endif
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.jf
+    android.hardware.usb@1.3-service.basic
 
 # Vibrator
 PRODUCT_PACKAGES += \
